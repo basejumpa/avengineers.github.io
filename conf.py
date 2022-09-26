@@ -14,15 +14,13 @@ project = 'Avengineers'
 version = get_version(root='.', relative_to=__file__)
 release = version
 
-author = 'Alexander Mann-Wahrenberg, Alexandru Maxiniuc, Jochen Maletschek, Karsten Günther, Matthias Eggert'
+author = 'MQG/SD-RM - Alexander Mann-Wahrenberg, Alexandru Maxiniuc, Jochen Maletschek, Karsten Günther, Matthias Eggert'
 copyright = f"2022, {author}"
 
 
 # -- General configuration ---------------------------------------------------
 # @see https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 # @see https://www.sphinx-doc.org/en/master/development/tutorials/helloworld.html
-
-sys.path.append(os.path.abspath("./_ext"))
 
 extensions = [
     'sphinxawesome_theme',          # @see https://sphinxawesome.xyz/
