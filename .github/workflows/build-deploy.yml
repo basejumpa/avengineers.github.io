@@ -16,7 +16,13 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
-      - name: Install graphviz, plantuml and umlet
+      - name: Setup Python
+        uses: actions/setup-python@v2
+      - name: Install pipenv
+        run: python -m pip install --upgrade pipenv wheel
+      - name: Install dependencies
+        run: pipenv install --deploy --dev
+      - name: Install utilities
         run: |
           sudo apt-get -y install plantuml
           which plantuml
@@ -24,15 +30,7 @@ jobs:
           set GRAPHVIZ_DOT=$(which dot)
           sudo apt-get -y install umlet
           which umlet
-      - name: Setup Python
-        uses: actions/setup-python@v2
-      - name: Install pipenv
-        run: python -m pip install --upgrade pipenv wheel
-      - name: Install dependencies
-        run: pipenv install --deploy --dev
-      - name: Build package
-        run: pipenv run python -m build
-      - name: Create website
+      - name: Build website
         run: pipenv run make html
       - name: Publish website
         if: github.ref == 'refs/heads/main'
