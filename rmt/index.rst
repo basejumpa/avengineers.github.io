@@ -1,27 +1,16 @@
-MQ-RMT - Marquardt's Rhine-Main-Team
-====================================
+RMT - Rhine-Main-Team
+=====================
 
-**Message to the customer (1 sentence)**
+    **Refactoring the Future**
 
-.. figure:: _figures/frankfurt-skyline.png
+.. figure:: _figures/rocket-starting-over-frankfurt.png
+    :scale: 25%
 
+.. toctree::
 
-About us
---------
-
-Our Purpose
-
-Our competencies
-----------------
-
-We and Marquardt GmbH
----------------------
-
-Contact
--------
-
-* virtual
-* real life
-
-Location
---------
+   about/index
+   purpose-and-values/index
+   we-at-marquardt/index
+   competencies/index
+   contact/index
+   location/index

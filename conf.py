@@ -9,12 +9,12 @@ from setuptools_scm import get_version
 # -- Project information -----------------------------------------------------
 # @see https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Avengineers'
+project = 'AvengineersWebPage'
 
 version = get_version(root='.', relative_to=__file__)
 release = version
 
-author = 'MQG/SD-RM - Alexander Mann-Wahrenberg, Alexandru Maxiniuc, Jochen Maletschek, Karsten Günther, Matthias Eggert'
+author = 'Alexander Mann-Wahrenberg, Alexandru Maxiniuc, Jochen Maletschek, Karsten Günther, Matthias Eggert'
 copyright = f"2022, {author}"
 
 
@@ -22,11 +22,12 @@ copyright = f"2022, {author}"
 # @see https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 # @see https://www.sphinx-doc.org/en/master/development/tutorials/helloworld.html
 
+sys.path.append(os.path.abspath("./_ext"))
+
 extensions = [
     'sphinxawesome_theme',          # @see https://sphinxawesome.xyz/
+
     'sphinxcontrib.plantuml',       # @see https://github.com/sphinx-contrib/plantuml
-# Todo: Make sphinxcontrib.umlet ready for usage and use it here. Then replace the generation of the umlet-exports in the makefile by this extension. Why necessary: Without that, umlet-exporting does not work together with sphinx-autobuild and sphinx_multiversion
-#    'sphinxcontrib.umlet',          # @see https://pypi.org/project/sphinxcontrib-umlet/
 ]
 
 templates_path = [
@@ -61,6 +62,16 @@ html_permalinks_icon = '<span>#</span>'
 
 # Usage: cwd == repository root
 # $ make html
+
+
+
+# -- Options for PlantUml  --------------------------------------------------
+# @see https://github.com/sphinx-contrib/plantuml
+
+conf_location = os.path.realpath(os.path.dirname(__file__))
+plantuml = f"java -jar {conf_location}/../utils/plantuml-1.2022.1.jar -config {conf_location}/plantuml.config"
+plantuml_output_format = 'svg'
+plantuml_latex_output_format = 'eps'
 
 
 # -- Options for sphinxcontrib.umlet ----------------------------------------
