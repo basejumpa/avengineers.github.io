@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
 """Sphinx configuration file."""
 
-import os
-import sys
-
 from setuptools_scm import get_version
 
 # -- Project information -----------------------------------------------------
@@ -22,15 +19,10 @@ copyright = f"2022, {author}"
 # @see https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 # @see https://www.sphinx-doc.org/en/master/development/tutorials/helloworld.html
 
-sys.path.append(os.path.abspath("./_ext"))
-
 extensions = [
     'sphinx.ext.githubpages',       # @see https://www.sphinx-doc.org/en/master/usage/extensions/githubpages.html
 ]
 
-templates_path = [
-    "_templates",
-]
 exclude_patterns = [
     'README.rst',
     'LICENSE.rst',
