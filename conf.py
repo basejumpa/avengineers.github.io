@@ -36,6 +36,8 @@ numfig = True
 
 html_title = 'Avengineers'
 
+html_show_sourcelink = False
+
 html_theme = 'sphinx_material'
 
 html_theme_options = {
