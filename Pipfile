@@ -6,8 +6,6 @@ name = "pypi"
 [packages]
 sphinx = "*"
 setuptools-scm = "*"
-sphinxawesome-theme = "*"
-"sphinxcontrib.plantuml" = "*"
 
 [dev-packages]
 
