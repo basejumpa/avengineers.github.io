@@ -26,7 +26,7 @@ sys.path.append(os.path.abspath("./_ext"))
 
 extensions = [
     'sphinxawesome_theme',          # @see https://sphinxawesome.xyz/
-
+    'sphinx.ext.githubpages',       # @see https://www.sphinx-doc.org/en/master/usage/extensions/githubpages.html
     'sphinxcontrib.plantuml',       # @see https://github.com/sphinx-contrib/plantuml
 ]
 
@@ -59,6 +59,8 @@ html_css_files = [
 html_theme = 'sphinxawesome_theme'
 pygments_style = "friendly"
 html_permalinks_icon = '<span>#</span>'
+
+html_baseurl = 'https://avengineers.github.io/'
 
 # Usage: cwd == repository root
 # $ make html
