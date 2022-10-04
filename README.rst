@@ -33,6 +33,7 @@ Install the sphinx-autobuild feature
 
 Enable auto-building into biuld-folder,  triggered by source code change
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+  ``pipenv shell`` 
   ``sphinx-autobuild.exe . build``
 
 Visual Studio Code Extensions
