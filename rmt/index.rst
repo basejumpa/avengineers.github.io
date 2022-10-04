@@ -1,7 +1,7 @@
-RMT - Rhine-Main-Team
-=====================
+MQ/RMT - Marquardt's Rhine-Main-Team
+=====================================
 
-    **Refactoring the Future**
+**Refactoring the Future**
 
 .. figure:: _figures/rocket-starting-over-frankfurt.png
     :scale: 25%
