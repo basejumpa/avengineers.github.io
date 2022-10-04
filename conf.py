@@ -6,7 +6,7 @@ from setuptools_scm import get_version
 # -- Project information -----------------------------------------------------
 # @see https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'AvengineersWebPage'
+project = ''
 
 version = get_version(root='.', relative_to=__file__)
 release = version
@@ -30,11 +30,22 @@ exclude_patterns = [
 
 numfig = True
 
-# -- Options for HTML output -------------------------------------------------
+# -- Options for HTML output with theme "sphinx_material" -------------------
 # @see https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
-# @see https://sphinxawesome.xyz/
+# @see https://bashtage.github.io/sphinx-material/
 
-html_baseurl = 'https://avengineers.github.io/'
+html_theme = 'sphinx_material'
+
+html_theme_options = {
+    'nav_title'    : 'Avengineers',
+    'base_url'     : 'https://avengineers.github.io/',
+    
+    'repo_url'  : 'https://github.com/avengineers/avengineers.github.io',
+    'repo_name' : 'avengineers.github.io',
+    
+    'color_primary': 'blue',
+    'color_accent': 'light-blue',
+}
 
 # -- Options for XXXXXXXXXXXXXXXXX ------------------------------------------
 # @see 
