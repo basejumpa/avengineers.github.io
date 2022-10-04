@@ -60,6 +60,8 @@ html_theme = 'sphinxawesome_theme'
 pygments_style = "friendly"
 html_permalinks_icon = '<span>#</span>'
 
+html_baseurl = 'https://avengineers.github.io/'
+
 # Usage: cwd == repository root
 # $ make html
 
