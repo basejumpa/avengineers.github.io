@@ -25,9 +25,7 @@ copyright = f"2022, {author}"
 sys.path.append(os.path.abspath("./_ext"))
 
 extensions = [
-    'sphinxawesome_theme',          # @see https://sphinxawesome.xyz/
     'sphinx.ext.githubpages',       # @see https://www.sphinx-doc.org/en/master/usage/extensions/githubpages.html
-    'sphinxcontrib.plantuml',       # @see https://github.com/sphinx-contrib/plantuml
 ]
 
 templates_path = [
@@ -44,41 +42,7 @@ numfig = True
 # @see https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 # @see https://sphinxawesome.xyz/
 
-#master_doc = "index"
-
-html_theme_path = [
-    '_themes'
-]
-
-html_css_files = [
-    # 'basic.css',  # included through inheritance from the basic theme
-    'sphinx13.css',
-]
-#html_theme = 'sphinx13'
-
-html_theme = 'sphinxawesome_theme'
-pygments_style = "friendly"
-html_permalinks_icon = '<span>#</span>'
-
 html_baseurl = 'https://avengineers.github.io/'
-
-# Usage: cwd == repository root
-# $ make html
-
-
-
-# -- Options for PlantUml  --------------------------------------------------
-# @see https://github.com/sphinx-contrib/plantuml
-
-conf_location = os.path.realpath(os.path.dirname(__file__))
-plantuml = f"java -jar {conf_location}/../utils/plantuml-1.2022.1.jar -config {conf_location}/plantuml.config"
-plantuml_output_format = 'svg'
-plantuml_latex_output_format = 'eps'
-
-
-# -- Options for sphinxcontrib.umlet ----------------------------------------
-# @see https://pypi.org/project/sphinxcontrib-umlet/
-
 
 # -- Options for XXXXXXXXXXXXXXXXX ------------------------------------------
 # @see 
