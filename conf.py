@@ -35,6 +35,7 @@ numfig = True
 # @see https://bashtage.github.io/sphinx-material/
 
 html_title = 'Avengineers'
+html_icon  = '_figures/logo.svg'
 
 html_show_sourcelink = False
 
