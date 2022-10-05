@@ -7,9 +7,10 @@ MQ/RMT - Marquardt's Rhine-Main-Team
     :scale: 25%
 
 .. toctree::
+    :maxdepth: 1
 
-   what-we-do/index
-   our-purpose/index
-   our-location/index
-   we-need-coworkers/index
-   contact/index
+    what-we-do/index
+    our-purpose/index
+    our-location/index
+    staff/index
+    contact/index

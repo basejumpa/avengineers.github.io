@@ -5,5 +5,6 @@ Avengineers
    :scale: 25%
 
 .. toctree::
+    :maxdepth: 1
 
-   rmt/index
+    rmt/index
