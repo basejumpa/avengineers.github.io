@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 sphinx = "*"
 setuptools-scm = "*"
+sphinx-autobuild = "*"
 sphinx-material = "*"
 
 [dev-packages]
