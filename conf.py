@@ -28,21 +28,26 @@ exclude_patterns = [
     'LICENSE.rst',
 ]
 
+# Figure references shall have numbers
 numfig = True
 
 # -- Options for HTML output with theme "sphinx_material" -------------------
 # @see https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
-# @see https://bashtage.github.io/sphinx-material/
+# @see https://bashtage.github.io/sphinx-material/customization.html
 
 html_title = f"Avengineers {version}" 
 html_logo  = '_figures/logo.svg'
 
+# Hide hyper link which leeds to the source of page displayed
 html_show_sourcelink = False
+
+html_sidebars = {
+    "**": ["logo-text.html", "globaltoc.html", "localtoc.html", "searchbox.html"]
+}
 
 html_theme = 'sphinx_material'
 
 html_theme_options = {
-    #'nav_title'    : f"Avengineers {version}",
     'nav_title'    : f"Avengineers",
     'base_url'     : 'https://avengineers.github.io/',
     
@@ -51,6 +56,10 @@ html_theme_options = {
     
     'color_primary': 'teal',
     'color_accent' : 'yellow',
+    
+    'globaltoc_depth'        : 3,
+    'globaltoc_collapse'     : 'true',
+    'globaltoc_includehidden': 'true',
 }
 
 # -- Options for XXXXXXXXXXXXXXXXX ------------------------------------------
