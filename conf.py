@@ -34,7 +34,7 @@ numfig = True
 # @see https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 # @see https://bashtage.github.io/sphinx-material/
 
-html_title = 'Avengineers'
+html_title = f"Avengineers {version}" 
 html_logo  = '_figures/logo.svg'
 
 html_show_sourcelink = False

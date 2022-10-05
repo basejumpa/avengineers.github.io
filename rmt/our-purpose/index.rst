@@ -1,4 +1,4 @@
-Our Purpose
+Our purpose
 ===========
 
 *(Unser Zweck)*

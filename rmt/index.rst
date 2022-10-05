@@ -8,9 +8,8 @@ MQ/RMT - Marquardt's Rhine-Main-Team
 
 .. toctree::
 
-   about/index
-   purpose-and-values/index
-   we-at-marquardt/index
-   competencies/index
+   what-we-do/index
+   our-purpose/index
+   our-location/index
+   we-need-coworkers/index
    contact/index
-   location/index
