@@ -24,10 +24,6 @@ concurrency:
 
 jobs:
   build-deploy:
-    if: github.ref == 'refs/heads/main'
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
@@ -51,6 +47,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         if: github.ref == 'refs/heads/main'
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: build/html
+        uses: actions/deploy-pages@v1
