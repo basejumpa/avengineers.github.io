@@ -16,6 +16,9 @@ Radio call sign
 Github
     https://github.com/basejumpa
 
+Stack overflow
+    `basejumpa <https://stackoverflow.com/users/3749628/basejumpa>`_
+
 LinkedIn
     `Alexander Mann-Wahrenberg <https://linkedin.com/in/alexander-mann-wahrenberg-939843b7>`_
 
