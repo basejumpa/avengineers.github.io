@@ -1,5 +1,6 @@
-Jochen Maletschek
-=================
+Jochen
+======
+
 .. figure:: _figures/JM.jpg
     :width: 200pt
 

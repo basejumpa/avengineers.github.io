@@ -1,7 +1,7 @@
 Alexander
 =========
 
-.. figure:: https://avatars.githubusercontent.com/u/8762228?v=4
+.. figure:: https://github.com/basejumpa.png?size=200
     :width: 200pt
 
 Real name

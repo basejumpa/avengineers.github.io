@@ -1,4 +1,4 @@
-Avengineers' web presence
+Avengineers' Web Presence
 *************************
 
 The sources behind https://avengineers.github.io/
@@ -26,12 +26,7 @@ Install the python virtual environment
    ``pipenv install``
 
 
-Install the sphinx-autobuild feature
-"""""""""""""""""""""""""""""""""""""""""""""""
-  ``pipenv install sphinx-autobuild``
-
-
-Enable auto-building into biuld-folder,  triggered by source code change
+Enable auto-building into build folder, triggered by source code change
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
   ``pipenv shell`` 
   ``sphinx-autobuild.exe . build``

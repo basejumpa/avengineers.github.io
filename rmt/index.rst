@@ -1,4 +1,4 @@
-MQ/RMT - Marquardt's Rhine-Main-Team
+MQ/RMT - Marquardt's Rhine-Main Team
 =====================================
 
 **Refactoring the Future**

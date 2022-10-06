@@ -1,7 +1,7 @@
 Alexandru
 =========
 
-.. figure:: https://avatars.githubusercontent.com/u/22344617?v=4
+.. figure:: https://github.com/cuinixam.png?size=200
     :width: 200pt
    
 |
