@@ -21,6 +21,7 @@ copyright = f"2022, {author}"
 
 extensions = [
     'sphinx.ext.githubpages',       # @see https://www.sphinx-doc.org/en/master/usage/extensions/githubpages.html
+    'sphinx_design',                # @see https://sphinx-design.readthedocs.io/en/latest/get_started.html
 ]
 
 exclude_patterns = [

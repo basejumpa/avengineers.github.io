@@ -1,6 +1,6 @@
 Our location
 ============
 
-The Rhine-Main team office is located close to Frankfurt am Main (approximately 20 minutes by car from the city centre)
+The RMT office is located close to Frankfurt am Main.
 
 .. figure:: _figures/location.png

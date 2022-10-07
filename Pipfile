@@ -8,6 +8,7 @@ sphinx = "*"
 setuptools-scm = "*"
 sphinx-autobuild = "*"
 sphinx-material = "*"
+sphinx-design = "*"
 
 [dev-packages]
 
