@@ -4,7 +4,7 @@ MQ/RMT - Marquardt's Rhine-Main Team
 **Refactoring the Future**
 
 .. figure:: _figures/rocket-starting-over-frankfurt.png
-    :width: 25%
+    :width: 250pt
 
 .. toctree::
     :maxdepth: 1
