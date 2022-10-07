@@ -5,10 +5,10 @@ The sources behind https://avengineers.github.io/
 
 
 
-Setup environment for changing web-page content
------------------------------------------------
+Development Environment
+-----------------------
 
-  Note: For docu on Sphix, see this `sphinxPrimer link`_.
+  Note: For documentation on Sphinx, see `sphinxPrimer link`_.
 
   .. _sphinxPrimer link: https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
 
@@ -28,8 +28,7 @@ Install the python virtual environment
 
 Enable auto-building into build folder, triggered by source code change
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-  ``pipenv shell`` 
-  ``sphinx-autobuild.exe . build``
+  ``pipenv run sphinx-autobuild.exe . build``
 
 Visual Studio Code Extensions
 """"""""""""""""""""""""""""""
