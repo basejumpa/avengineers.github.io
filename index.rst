@@ -2,7 +2,7 @@ Avengineers
 ===========
 
 .. figure:: _figures/qr-avengineers.github.io.png
-   :scale: 25%
+   :width: 25%
 
 .. toctree::
     :maxdepth: 1
