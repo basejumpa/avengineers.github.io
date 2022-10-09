@@ -8,7 +8,7 @@ Real name
     Alexander Mann-Wahrenberg
 
 Profession
-    Automotive Software and Systems Engineer
+    Automotive Systems and Software Engineer
 
 Radio call sign
     basejumpa
