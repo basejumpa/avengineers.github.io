@@ -8,3 +8,4 @@ Avengineers
     :maxdepth: 1
 
     rmt/index
+    LICENSE

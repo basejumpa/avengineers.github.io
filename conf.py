@@ -26,7 +26,6 @@ extensions = [
 
 exclude_patterns = [
     'README.rst',
-    'LICENSE.rst',
 ]
 
 # Figure references shall have numbers
