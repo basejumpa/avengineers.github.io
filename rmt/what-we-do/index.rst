@@ -22,14 +22,13 @@ We are a department inside Research & Development of `Marquardt GmbH <https://ww
 
 System components for E-Mobility are the youngest among Marquardt's solutions.
 
-.. figure:: https://www.marquardt.com/fileadmin/breakpoints/23408/t-img-l-Elektroauto-CAD_Bild_Teaser_L-1320x836.jpg
-
     Battery management components engineered and manufactored by Marquardt. [#]_
-
-
-.. [#] Origin: https://www.marquardt.com/us/solutions/e-mobility-solutions/
 
 Focussing that area we contribute 
 
 * architectural and infrastructure enablers for Systems and Software Engineering and also
 * features and capabilities of the software products.
+
+.. figure:: https://www.marquardt.com/fileadmin/breakpoints/23408/t-img-l-Elektroauto-CAD_Bild_Teaser_L-1320x836.jpg
+
+.. [#] Origin: https://www.marquardt.com/us/solutions/e-mobility-solutions/
