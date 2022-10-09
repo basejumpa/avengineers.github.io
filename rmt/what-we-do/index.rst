@@ -22,8 +22,6 @@ The headquarters are in `Rietheim-Weilheim <https://en.wikipedia.org/wiki/Riethe
 
 We are integrated in Research & Development / Systems- and Software Engineering as a department.
 
-We ar
-
 System components for E-Mobility are the youngest among Marquardt's solutions.
 
 
