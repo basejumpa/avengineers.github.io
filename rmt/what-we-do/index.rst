@@ -34,7 +34,7 @@ Doing that we are tightly collaborating with our colleagues of the headquarters,
 
 .. figure:: https://www.marquardt.com/fileadmin/breakpoints/23408/t-img-l-Elektroauto-CAD_Bild_Teaser_L-1320x836.jpg
 
-    Battery management components engineered and manufactored by Marquardt. [#]_
+    Battery management components engineered and manufactured by Marquardt. [#]_
 
 
 .. [#] Origin: https://www.marquardt.com/us/solutions/e-mobility-solutions/
