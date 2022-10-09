@@ -28,3 +28,8 @@ System components for E-Mobility are the youngest among Marquardt's solutions.
 
 
 .. [#] Origin: https://www.marquardt.com/us/solutions/e-mobility-solutions/
+
+Focussing that area we contribute 
+
+* architectural and infrastructure enablers for Systems and Software Engineering and also
+* features and capabilities of the software products.
