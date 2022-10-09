@@ -23,7 +23,7 @@ We are a department inside Research & Development of `Marquardt GmbH <https://ww
 System components for E-Mobility are the youngest among Marquardt's solutions.
 
 
-Focussing that area we contribute 
+Focussing that area we contribute ...
 
 * architectural and infrastructure enablers for Systems and Software Engineering and also
 * features and capabilities of the software products.
