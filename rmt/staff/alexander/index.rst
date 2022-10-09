@@ -25,5 +25,5 @@ LinkedIn
 Twitter
     `@TheBasejumpa <https://twitter.com/TheBasejumpa>`_
 
-Company
-    `Marquardt <https://www.marquardt.com>`_ 
+Employment
+    `Marquardt Group <https://www.marquardt.com/us/>`_ 
