@@ -9,4 +9,4 @@ Staff
     jochen/index
     karsten/index
     matthias/index
-    we-want-coworkers/index
+    we-want-fellow-workers/index

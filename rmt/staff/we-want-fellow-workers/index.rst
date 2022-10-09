@@ -1,5 +1,5 @@
-We need coworkers
-=================
+We want fellow-workers
+======================
 
 Who are you?
 
