@@ -14,5 +14,5 @@ MQ/RMT - Marquardt's Rhine-Main Team
     our-location/index
     staff/index
     contact/index
-    haftungsbeschraenkung/index
+    liability-limitation/index
     ../LICENSE
