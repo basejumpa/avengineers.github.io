@@ -28,7 +28,7 @@ System components for E-Mobility are the youngest among Marquardt's solutions.
 Focussing that solution group we contribute ...
 
 * architectural and infrastructure enablers for Systems and Software Engineering and also
-* features and capabilities of the software products.
+* to features and capabilities of the software products.
 
 Doing that we are tightly collaborating with our colleagues of the headquarters, in `Pune <https://en.wikipedia.org/wiki/Pune>`_, `Sibiu <https://en.wikipedia.org/wiki/Sibiu>`_ and other loations.
 
