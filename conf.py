@@ -26,11 +26,8 @@ extensions = [
 
 exclude_patterns = [
     'README.rst',
-    'LICENSE.rst',
 ]
 
-# Figure references shall have numbers
-numfig = True
 
 # -- Options for HTML output with theme "sphinx_material" -------------------
 # @see https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output

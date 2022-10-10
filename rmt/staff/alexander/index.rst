@@ -8,7 +8,7 @@ Real name
     Alexander Mann-Wahrenberg
 
 Profession
-    Automotive Software and Systems Engineer
+    Automotive Systems and Software Engineer
 
 Radio call sign
     basejumpa
@@ -25,5 +25,5 @@ LinkedIn
 Twitter
     `@TheBasejumpa <https://twitter.com/TheBasejumpa>`_
 
-Company
-    `Marquardt <https://www.marquardt.com>`_ 
+Employment
+    `Marquardt Group <https://www.marquardt.com/us/>`_ 
