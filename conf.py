@@ -11,7 +11,7 @@ project = 'Avengineers'
 version = get_version(root='.', relative_to=__file__)
 release = version
 
-author = 'Avengineers / RMT'
+author = 'Avengineers / MQ / RMT'
 copyright = f"2022, {author}"
 
 
