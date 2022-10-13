@@ -10,7 +10,7 @@ We ...
 * are an evolving part of the `Marquardt Group <https://www.marquardt.com/us/>`_ family and are building a new location with focus on systems and software engineering. 
 * apply methods and develop concepts with regard to system and software engineering within the automotive industry. 
 * are devoted to agile development.
-* create an attractive culture within our team and in particular for you.
+* strive for a truly powerful, soulful, and purposeful culture within and around our team.
 
 
 ... at Marquardt Group
