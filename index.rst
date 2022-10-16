@@ -3,7 +3,7 @@ Avengineers
 
 .. figure:: _figures/qr-avengineers.github.io.png
     :width: 250pt
-    :target: rmt/index.rst
+    :target: rmt/index.html
 
 .. toctree::
     :maxdepth: 1
